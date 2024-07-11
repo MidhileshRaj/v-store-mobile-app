@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class VStoreAppHelperFunctions {
+class VStoreAppHelperFunctions extends GetxController{
   static Color? getColor(String value) {
     /// Define your product specific colors here and it will  match the attribute colors and show specific
 
@@ -55,12 +55,12 @@ class VStoreAppHelperFunctions {
 
 
   static bool isDarkMode(BuildContext context){
-    return Theme.of(context).brightness == Brightness.dark;
+    return  MediaQuery.of(context).platformBrightness == Brightness.dark;
   }
 
   static Size screenSize(){
     return MediaQuery.of(Get.context!).size;
-  }static double screenheight(){
+  }static double screenHeight(){
     return MediaQuery.of(Get.context!).size.height;
   }static double screenWidth(){
     return MediaQuery.of(Get.context!).size.width;

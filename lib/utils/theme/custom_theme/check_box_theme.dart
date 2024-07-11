@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:v_store/utils/constants/colors.dart';
+import 'package:v_store/utils/constants/colors.dart';
 
 class VStoreAppCheckBoxTheme{
   VStoreAppCheckBoxTheme._();
@@ -16,7 +18,7 @@ class VStoreAppCheckBoxTheme{
     },),
     fillColor:WidgetStateProperty.resolveWith((states) {
       if(states.contains(WidgetState.selected)){
-        return Colors.blue;
+        return VStoreAppColors.primary;
       }else{
         return Colors.transparent;
       }
@@ -35,7 +37,7 @@ class VStoreAppCheckBoxTheme{
     },),
     fillColor:WidgetStateProperty.resolveWith((states) {
       if(states.contains(WidgetState.selected)){
-        return Colors.blue;
+        return VStoreAppColors.primary;
       }else{
         return Colors.transparent;
       }

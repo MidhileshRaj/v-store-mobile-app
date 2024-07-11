@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:v_store/utils/constants/colors.dart';
+import 'package:v_store/utils/constants/colors.dart';
+import 'package:v_store/utils/constants/colors.dart';
+import 'package:v_store/utils/constants/colors.dart';
 
 class VStoreAppElevatedButtonTheme{
   VStoreAppElevatedButtonTheme._();
@@ -7,10 +11,10 @@ class VStoreAppElevatedButtonTheme{
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
+      backgroundColor: VStoreAppColors.primary,
       disabledForegroundColor: Colors.grey.shade600,
       disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: Colors.blue),
+      side: const BorderSide(color: VStoreAppColors.primary),
       padding: const EdgeInsets.symmetric(vertical: 15),
       textStyle: const TextStyle(fontSize: 16,color: Colors.white,fontWeight: FontWeight.w600),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))
@@ -20,10 +24,10 @@ class VStoreAppElevatedButtonTheme{
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
+      backgroundColor: VStoreAppColors.primary,
       disabledForegroundColor: Colors.grey.shade600,
       disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: Colors.blue),
+      side: const BorderSide(color: VStoreAppColors.primary),
       padding: const EdgeInsets.symmetric(vertical: 15),
       textStyle: const TextStyle(fontSize: 16,color: Colors.white,fontWeight: FontWeight.w600),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))
