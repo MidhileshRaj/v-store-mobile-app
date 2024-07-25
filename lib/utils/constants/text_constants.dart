@@ -13,6 +13,7 @@ class VStoreAppTextConstants {
   static const String termAndConditionCheckbox = "I Agree T&C";
   static const String rememberMeCheckbox = "Remember me";
   static const String continueButton = "Continue";
+  static const String submit = "Continue";
   static const String resend = "Resend";
 
 
@@ -24,6 +25,12 @@ class VStoreAppTextConstants {
   static const String name="Name";
   static const String newPassword="New Password";
   static const String oldPassword="Old Password";
+    /// Forget & Reset  password page
+    static const String forgetPasswordTitle = "Forget Password?";
+    static const String forgetPasswordSubTitle = "Don't worry. Sometimes people can forget too. To recover your account please enter your registered email address here then submit to get a forget password link";
+    static const String resetPasswordTitle = "Confirmation Mail Sent";
+    static const String resetPasswordSubTitle = "Your account has  requested for resetting the password which help you to reset your password";
+    static const String resendEmail = "Resend E-mail";
 
 
   /// Form Elements

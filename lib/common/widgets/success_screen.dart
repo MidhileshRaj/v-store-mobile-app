@@ -28,8 +28,8 @@ class SuccessScreen extends StatelessWidget {
                 image: AssetImage(image),
                 width: VStoreAppHelperFunctions.screenWidth() * .75,
               ),
-              const SizedBox(
-                height: VStoreAppSizes.spaceBtwSection,
+              const Gap(
+                VStoreAppSizes.spaceBtwSection,
               ),
 
               /// Title and Subtitle
