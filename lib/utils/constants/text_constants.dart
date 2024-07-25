@@ -12,6 +12,8 @@ class VStoreAppTextConstants {
   static const String forgotPassword = "*Forgot Password ? ";
   static const String termAndConditionCheckbox = "I Agree T&C";
   static const String rememberMeCheckbox = "Remember me";
+  static const String continueButton = "Continue";
+  static const String resend = "Resend";
 
 
 
@@ -37,6 +39,10 @@ class VStoreAppTextConstants {
   static const String orSignInWith="Or sign-in with";
   static const String iAgreeTo="I agree to ";
   static const String privacyPolicy="Privacy Policy ";
+  static const String confirmEmail="Verify Your EmaiL Address ";
+  static const String yourAccountCreated="Your Account Successfully Created";
+  static const String yourAccountCreatedSubtitle="Welcome to the world of We store. We provide verities of offers that you can not imagine for a premium quality branded products";
+  static const String confirmEmailDescription="Congratulations! You are on the final step to complete the registration. Verify your email address to start shopping and Experience a world of offers of premium products ";
   static const String and="and ";
   static const String termsOfUse="Terms of use. ";
 

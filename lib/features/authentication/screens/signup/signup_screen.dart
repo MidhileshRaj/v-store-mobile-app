@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:get/get.dart';
+import 'package:v_store/features/authentication/screens/signup/verify_email_screen.dart';
 import 'package:v_store/features/authentication/screens/signup/widgets/signup_screen_form.dart';
 import 'package:v_store/utils/constants/sizes.dart';
 import 'package:v_store/utils/constants/text_constants.dart';
@@ -42,7 +44,7 @@ class SignupScreen extends StatelessWidget {
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(()=> const VerifyEmailScreen()),
                   child: const Text(VStoreAppTextConstants.createAccount),
                 ),
               ),
