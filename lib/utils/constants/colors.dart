@@ -4,7 +4,7 @@ class VStoreAppColors {
   VStoreAppColors._();
 
   // Basic Colors
-  static const Color primary = Color(0xff4b68ff);
+  static const Color primary = Color(0xFF572c81);
   static const Color secondary = Color(0xFFFFE24B);
   static const Color accent = Color(0xFFb0c7ff);
 
@@ -30,13 +30,13 @@ class VStoreAppColors {
   static Color darkContainer = VStoreAppColors.white.withOpacity(.1);
 
   // Button Colors
-  static const Color buttonPrimary = Color(0xFF4b68ff);
-  static const Color buttonSecondary = Color(0xFF4b68ff);
-  static const Color buttonDisabled = Color(0xFF4b68ff);
+  static const Color buttonPrimary = Color(0xFF572c81);
+  static const Color buttonSecondary = Color(0xFF572c81);
+  static const Color buttonDisabled = Color(0xFF572c81);
 
   // Border Color
-  static const Color borderPrimary = Color(0xFF4b68ff);
-  static const Color borderSecondary = Color(0xFF4b68ff);
+  static const Color borderPrimary = Color(0xFF572c81);
+  static const Color borderSecondary = Color(0xFF572c81);
 
   // Error and Validation Color
   static const Color error = Color(0xFFD32F2F);

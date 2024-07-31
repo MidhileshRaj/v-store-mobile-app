@@ -8,6 +8,7 @@ import 'package:v_store/features/authentication/screens/password_configuration/f
 import 'package:v_store/utils/constants/text_constants.dart';
 
 import '../../../../../utils/constants/sizes.dart';
+import '../../../../shop/navigation_menu.dart';
 import '../../signup/signup_screen.dart';
 
 class LoginScreenForm extends StatelessWidget {
@@ -54,7 +55,9 @@ class LoginScreenForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(()=>const NavigationMenu());
+              },
               child: const Text(VStoreAppTextConstants.login),
             ),
           ),
