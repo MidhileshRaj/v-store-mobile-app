@@ -2,8 +2,10 @@ class VStoreAppTextConstants {
   VStoreAppTextConstants._();
 
   static const String appName = "We Store";
-  static const String introText = "We Are the best seller of Kerala's Budget friendly luxury product";
-  static const String termsAndConditions = "Here By I agree with the terms and condition of the company policy.";
+  static const String introText =
+      "We Are the best seller of Kerala's Budget friendly luxury product";
+  static const String termsAndConditions =
+      "Here By I agree with the terms and condition of the company policy.";
 
   /// Button or click related content
   static const String login = "Login";
@@ -16,22 +18,21 @@ class VStoreAppTextConstants {
   static const String submit = "Continue";
   static const String resend = "Resend";
 
-
-
-
   /// Form related content
-  static const String email="E-mail";
-  static const String password="Password";
-  static const String name="Name";
-  static const String newPassword="New Password";
-  static const String oldPassword="Old Password";
-    /// Forget & Reset  password page
-    static const String forgetPasswordTitle = "Forget Password?";
-    static const String forgetPasswordSubTitle = "Don't worry. Sometimes people can forget too. To recover your account please enter your registered email address here then submit to get a forget password link";
-    static const String resetPasswordTitle = "Confirmation Mail Sent";
-    static const String resetPasswordSubTitle = "Your account has  requested for resetting the password which help you to reset your password";
-    static const String resendEmail = "Resend E-mail";
+  static const String email = "E-mail";
+  static const String password = "Password";
+  static const String name = "Name";
+  static const String newPassword = "New Password";
+  static const String oldPassword = "Old Password";
 
+  /// Forget & Reset  password page
+  static const String forgetPasswordTitle = "Forget Password?";
+  static const String forgetPasswordSubTitle =
+      "Don't worry. Sometimes people can forget too. To recover your account please enter your registered email address here then submit to get a forget password link";
+  static const String resetPasswordTitle = "Confirmation Mail Sent";
+  static const String resetPasswordSubTitle =
+      "Your account has  requested for resetting the password which help you to reset your password";
+  static const String resendEmail = "Resend E-mail";
 
   /// Form Elements
 
@@ -41,17 +42,19 @@ class VStoreAppTextConstants {
   static const String address = "Address";
   static const String phone = "Phone";
 
-
   /// Extra
-  static const String orSignInWith="Or sign-in with";
-  static const String iAgreeTo="I agree to ";
-  static const String privacyPolicy="Privacy Policy ";
-  static const String confirmEmail="Verify Your EmaiL Address ";
-  static const String yourAccountCreated="Your Account Successfully Created";
-  static const String yourAccountCreatedSubtitle="Welcome to the world of We store. We provide verities of offers that you can not imagine for a premium quality branded products";
-  static const String confirmEmailDescription="Congratulations! You are on the final step to complete the registration. Verify your email address to start shopping and Experience a world of offers of premium products ";
-  static const String and="and ";
-  static const String termsOfUse="Terms of use. ";
+  static const String orSignInWith = "Or sign-in with";
+  static const String iAgreeTo = "I agree to ";
+  static const String privacyPolicy = "Privacy Policy ";
+  static const String confirmEmail = "Verify Your EmaiL Address ";
+  static const String yourAccountCreated = "Your Account Successfully Created";
+  static const String yourAccountCreatedSubtitle =
+      "Welcome to the world of We store. We provide verities of offers that you can not imagine for a premium quality branded products";
+  static const String confirmEmailDescription =
+      "Congratulations! You are on the final step to complete the registration. Verify your email address to start shopping and Experience a world of offers of premium products ";
+  static const String and = "and ";
+  static const String termsOfUse = "Terms of use. ";
 
-
+  /// Home page Content
+  static const String homeTitleMain = "Welcome to WeStore";
 }

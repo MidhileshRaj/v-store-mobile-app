@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../screens/home/widgets/home_screen.dart';
+import '../../../screens/home/home_screen.dart';
 
 class NavigationMenuController extends GetxController {
   final Rx<int> selecetdIndex = 0.obs;

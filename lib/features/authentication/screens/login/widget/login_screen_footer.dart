@@ -22,13 +22,13 @@ class LoginScreenFooter extends StatelessWidget {
           ),
           child: IconButton(
             onPressed: () {},
-            icon: Text(" G ",
+            icon: const Text(" G ",
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold)),
           ),
         ),
-        Gap(VStoreAppSizes.spaceBtwItems),
+        const Gap(VStoreAppSizes.spaceBtwItems),
         Container(
           decoration: BoxDecoration(
             color: VStoreAppColors.primary,
@@ -37,7 +37,7 @@ class LoginScreenFooter extends StatelessWidget {
           ),
           child: IconButton(
             onPressed: () {},
-            icon: Text(" F ",
+            icon: const Text(" F ",
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold)),
